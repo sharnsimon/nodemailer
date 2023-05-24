@@ -34,5 +34,5 @@ const getLeaveDetails = async function(req,res){
     if(err) return ReE(res,err,422)
     if(data) return ReS(res,data,200)
 }
-
+console.log('sharn')
 module.exports.getLeaveDetails = getLeaveDetails
