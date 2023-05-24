@@ -35,5 +35,6 @@ const deleteDepartment = async function (req,res){
     }
   })
 }
+console.log('sharn and selva')
 
 module.exports.deleteDepartment = deleteDepartment
